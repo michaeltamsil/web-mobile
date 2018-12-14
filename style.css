@@ -1,0 +1,10 @@
+.imgOVR{
+    float: left;
+    position: absolute;
+    bottom:0px;
+}
+.imgOVRsz {
+    width: 25%;
+    height: auto;
+
+}
