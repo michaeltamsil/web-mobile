@@ -1,10 +1,91 @@
+.bodyf{
+    
+}
+
+.navbar1{
+    position: relative;
+    background: lightgrey;
+    box-shadow: 0 2px 8px rgba (0, 0, 0, 27)
+}
+
 .imgOVR{
     float: left;
     position: absolute;
     bottom:0px;
 }
-.imgOVRsz {
-    width: 25%;
-    height: auto;
 
+.pusat {
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.main {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div{
+    display: block;
+}
+.content {
+    margin: 0 auto;
+    overflow: hidden;
+}
+.jspan{
+    font-size: 20px;
+    padding-left: 8px;
+    border-left: 4px solid grey;
+}
+.judulg{
+    font-size: 14px;
+    padding-bottom: 8px;
+    border-bottom: 4px solid #ddd;
+    margin-bottom: 10px;
+}
+.jarak{
+    float: left;
+    width: 30%;
+    padding-bottom: 10px;
+    border-bottom: 4px;
+    overflow: hidden;
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+  
+}
+.l ul li {
+    line-height: 29px;
+}
+*, ::before ::after{
+    box-sizing: border-box;
+}
+.limit{
+    overflow: hidden;
+    height: 101px;
+}
+.l ul li a{
+    padding: 6x;
+    font-weight: 700;
+    font-size: 11px;
+    border-radius: 7px;
+}
+.l ul{
+    margin: 0;
+    padding-left: 3px;
+    font-size: 12px;
+    overflow: hidden;
 }
